@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> Harshitha's Portfolio </title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-green-800 shadow p-4 sticky top-0 z-50">
+      <ul class="flex justify-center gap-6">
+        <li><a href="#home" class="text-white font-semibold hover:underline">Home</a></li>
+        <li><a href="#about" class="text-white font-semibold hover:underline">About</a></li>
+        <li><a href="#projects" class="text-white font-semibold hover:underline">Projects</a></li>
+        <li><a href="#contact" class="text-white font-semibold hover:underline">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="bg-gradient-to-b from-green-100 to-white py-16 text-center">
+      <img src="./Images/Profile.jpg" alt="Profile" class="mx-auto rounded-full mb-6 w-40 h-40 shadow-xl border-4 border-green-500" />
+      <h1 class="text-green-800 text-4xl font-bold">Harshitha Reddy Kondeti</h1>
+      <p class="text-green-800 mt-2 text-xl">Aspiring Web Developer 💻✨</p>
+      <p class="text-green-600 mt-1 italic ">"Crafting dreams into responsive code."</p>
+      <a href="./Tech resume 1.docx" download class="inline-block mt-6 bg-green-800 text-white px-6 py-2 rounded hover:bg-green-600 transition-transform duration-300 hover:scale-105 shadow-md">Download Resume</a>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="text-green-800 p-8 bg-gray-50">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-6">About Me</h2>
+        <p class="text-justify mb-4">
+          I'm Harshitha Reddy Kondeti, a Computer Science undergrad at CMR Institute of Technology, passionate about crafting clean and creative user experiences with code. I love building websites, editing posters, and turning ideas into reality through design & code. Whether it’s front-end development or creating art, I enjoy every step of the creative process.
+        </p>
+        <p class="text-justify mb-6">
+          My goal is to become a full-stack developer and build impactful tech that solves real-world problems. I believe in smart work, continuous learning, and making tech more accessible.
+        </p>
+
+        <h3 class="text-xl font-semibold mb-2">Skills:</h3>
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full">HTML</span>
+          <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full">CSS</span>
+          <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full">Tailwind CSS</span>
+          <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full">JavaScript</span>
+        </div>
+
+        <h3 class="text-xl font-semibold mb-2">Education:</h3>
+        <ul class="border-l-4 border-green-400 pl-4">
+  <li class="mb-4">
+    <h4 class="font-semibold">B.Tech – CMRIT</h4>
+    <p class="text-sm text-gray-600">2024 - Present</p>
+  </li>
+  <li>
+    <h4 class="font-semibold">Intermediate – Sri Chaitanya</h4>
+    <p class="text-sm text-gray-600">2022 - 2024</p>
+  </li>
+</ul>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="p-8 bg-white">
+      <h2 class="text-green-800 text-3xl font-bold text-center mb-8">Projects</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Project Card -->
+        <div class="bg-gray-50 shadow-md rounded-lg p-6 hover:shadow-xl hover:scale-105 transition-transform">
+          <h3 class="text-green-800 text-xl font-semibold text-center">E-Commerce Website</h3>
+          <p class="text-green-600 text-sm mt-2 text-center">A Flipkart-style shopping site with product listings and cart.</p>
+          <div class="mt-4 flex justify-between items-center">
+            <span class="text-xs italic text-green-600">Tailwind CSS</span>
+            <a href="#" class="bg-green-800 text-white px-4 py-2 rounded hover:bg-green-600">View</a>
+          </div>
+        </div>
+        <div class="bg-gray-50 shadow-md rounded-lg p-6 hover:shadow-xl hover:scale-105 transition-transform">
+          <h3 class="text-green-800 text-xl font-semibold text-center">Portfolio Site</h3>
+          <p class="text-green-600 text-sm mt-2 text-center">A responsive portfolio to showcase my skills and journey.</p>
+          <div class="mt-4 flex justify-between items-center">
+            <span class="text-xs italic text-green-600">HTML & Tailwind</span>
+            <a href="#" class="bg-green-800 text-white px-4 py-2 rounded hover:bg-green-600">View</a>
+          </div>
+        </div>
+        <div class="bg-gray-50 shadow-md rounded-lg p-6 hover:shadow-xl hover:scale-105 transition-transform">
+          <h3 class="text-green-800 text-xl font-semibold text-center">To-Do App</h3>
+          <p class="text-green-600 text-sm mt-2 text-center">A simple productivity app with add/delete/edit tasks.</p>
+          <div class="mt-4 flex justify-between items-center">
+            <span class="text-xs italic text-green-600">JS + Tailwind</span>
+            <a href="#" class="bg-green-800 text-white px-4 py-2 rounded hover:bg-green-600">View</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="p-8 bg-gray-100">
+      <h2 class="text-green-800 text-3xl font-bold text-center mb-6">Contact Me</h2>
+      <div class="max-w-md mx-auto">
+        <form class="space-y-4">
+          <div>
+            <label class="block text-green-600 text-sm font-medium mb-1">Name</label>
+            <input type="text" placeholder="Your Name" class="w-full p-3 border rounded-lg" />
+          </div>
+          <div>
+            <label class="block text-green-600 text-sm font-medium mb-1">Email</label>
+            <input type="email" placeholder="example@email.com" class="w-full p-3 border rounded-lg" />
+          </div>
+          <div>
+            <label class=" text-green-600 block text-sm font-medium mb-1">Message</label>
+            <textarea placeholder="Your message..." class="w-full p-3 border rounded-lg"></textarea>
+          </div>
+          <button class="w-full bg-green-800 text-white py-2 rounded-lg hover:bg-green-600">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-800 text-white p-6 mt-10">
+      <div class="text-center">
+        <p class="text-lg font-bold">Let's connect!</p>
+        <div class="mt-3 space-x-4">
+          <a href="https://www.linkedin.com/in/harshitha-reddy-kondeti" class="text-white hover:underline">LinkedIn</a>
+          <a href="https://github.com/harshithareddy007" class="text-white hover:underline">GitHub</a>
+        </div>
+        <p class="mt-4 text-sm text-gray-400">© 2025 Harshitha Reddy. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
