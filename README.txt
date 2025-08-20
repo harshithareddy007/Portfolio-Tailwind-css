@@ -3,7 +3,7 @@
 This is a personal portfolio website built using HTML and Tailwind CSS as part of the DevTown Bootcamp.
 
 ## 🔗 Live Demo
-[Click here to view it on Netlify](https://your-site.netlify.app)
+https://harshithareddy007.github.io/Portfolio-Tailwind-css/
 
 ## 📁 Features
 - Responsive design
